@@ -1,0 +1,21 @@
+{
+  "name": "mckinseyclone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6"
+  }
+}
