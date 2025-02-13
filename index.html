@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/mcKinseyClone/src/output.css" rel="stylesheet">
 </head>
-<body class="font-[Bower]">
+<body class="font-[Bower] overflow-x-hidden block">
   <div class="bg-blue-800">
 
     <!--Header section-->
     <nav class="">
-       <div class="bg-blue-800 flex p-auto">
+       <div class="bg-blue-800 flex p-4 items-center w-full">
                <div class="mt-4 ml-4 align-start space-y-1">
                               <div id="line1" class="w-4 h-0.5 bg-white"></div>
                                <div id="line2" class="w-4 h-0.5 bg-white"></div>
                                <div id="line3" class="w-4 h-0.5 bg-white "></div>
                </div>
-               <div class="ml-6 text-white text-xl font-[Bower]">
+               <!-- <div class="ml-6 text-white text-xl font-[Bower]">
                    <h3>McKinsey</h3>
                    <h3 class="ml-3">&Company</h3>
                </div>
-               <div class="text-white font-[Bower] mt-4 ml-14 space-x-8">
+               <div class="text-white font-[Bower] mt-4 ml-14 space-x-8 invisible">
                  <a href="#">Industries &or;</a>
                  <a href="#">Capabilities &or;</a>
                  <a href="#">Featured Insights &or;</a>
@@ -29,18 +29,44 @@
                  <a href="#">About Us &or;</a>
                  <a href="#">McKinsey Blog</a>
                </div>
-                 <p class="mb-12 ml-14 text-white">Sign In | Subscribe</p>
+                 <p class="mb-12 ml-14 text-white hidden">Sign In | Subscribe</p> -->
                  <img src="mcKinseyImage/searc-icon.webp" alt="searc-icon" class="-ml-8 mt-4 h-9 ">
        </div>
       </nav>
 
       <!--Main section-->
-    <div>
-      <img src="mcKinseyImage/bg-img.png" alt="bg image">
-      <h1>A new operating model for people management: More personal, more tech, more human</h1>
+    <div class="grid grid-cols-4 text-white  relative">
+      <div class="absolute inset-0">
+        <img src="mcKinseyImage/bg-img.png" alt="bg image" 
+        class="max-w-full h-auto object-cover opacity-50">
+      </div>
+      <div class="relative px-6 py-20 mx-auto">
+        <h1 class="font-bold text-3xl mt-14 leading-tight">A new operating model for 
+          people management: More
+          personal, more tech, more human</h1>
+        <p class="mt-4 text-lg text-gray-200">
+          To get the most from employees, organizations need a more 
+          strategic, collaborative, fluid, and data-driven people operating 
+          system. Here’s how they can build one.
+        </p>
+        <a href="#" class="inline-block mt-6 font-semibold underline">
+          Read the article →
+        </a>
+      </div>
+        
+      </div>
     </div>  
 
   </div>
+  <div class="bg-white">
+    <div class="grid grid-cols-5">
+      <h4 class="font-black">TRENDING INSIGHTS</h4>
+      <ul>
+        <li>
+          <a href="#"></a>
+        </li>
+      </ul>
+    </div>
 </body>
 </html>
 
